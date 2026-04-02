@@ -125,13 +125,14 @@ ol {
 /*Шаг 3. Стили текстов*/
 .search-form__fieldset-title {
   margin-bottom: 5px;
-  font-weight: 400;
+  font-weight: normal;
   font-size: 18px;
   line-height: 1;
 }
 
 .title {
-  font-weight: 700;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
   font-size: 75px;
   line-height: 0.94;
   text-transform: uppercase;
@@ -154,7 +155,8 @@ ol {
 }
 
 .content__video-card-title {
-  font-weight: 700;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
   font-size: 30px;
   text-transform: uppercase;
   white-space: nowrap;
@@ -164,7 +166,7 @@ ol {
 
 .content__video-card-description {
   font-family: 'Fira Sans Condensed', sans-serif;
-  font-weight: 400;
+  font-weight: normal;
   font-size: 18px;
   line-height: 16.2px;
   white-space: nowrap;
@@ -196,7 +198,7 @@ ol {
   display: flex;
   align-items: center;
   width: fit-content;
-  gap: 1.5px;
+  gap: 5px;
   cursor: pointer;
 }
 
@@ -265,7 +267,7 @@ ol {
   background-color: transparent;
   color: #fff;
   font-family: inherit;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 18px;
   text-transform: uppercase;
   text-align: center;
