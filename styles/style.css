@@ -54,7 +54,6 @@ ol {
 }
 
 /*Шаг 1. Лейаут*/
-
 .content {
   display: flex;
   align-items: flex-end;
@@ -85,7 +84,6 @@ ol {
 }
 
 /*Шаг 2. Уточнение размеров*/
-
 .result__video-container {
   width: 711px;
   height: 386px;
@@ -125,7 +123,6 @@ ol {
 }
 
 /*Шаг 3. Стили текстов*/
-
 .search-form__fieldset-title {
   margin-bottom: 5px;
   font-weight: 400;
@@ -175,9 +172,7 @@ ol {
   text-overflow: ellipsis;
 }
 
-
 /*Шаг 4. Стилизуем формы и их состояния*/
-
 .visually-hidden {
   position: absolute;
   inline-size: 1px;
@@ -264,7 +259,6 @@ ol {
 }
 
 /*Шаг 5. Стилизуем кнопки и их состояния*/
-
 .button {
   display: block;
   cursor: pointer;
@@ -307,7 +301,6 @@ ol {
 }
 
 /*Шаг 6. Состояния карточек*/
-
 .content__card-link:hover {
   text-decoration: underline;
 }
