@@ -261,7 +261,6 @@ ol {
 /*Шаг 5. Стилизуем кнопки и их состояния*/
 .button {
   display: block;
-  cursor: pointer;
   border: 1px solid #fff;
   background-color: transparent;
   color: #fff;
@@ -301,10 +300,6 @@ ol {
 }
 
 /*Шаг 6. Состояния карточек*/
-.content__card-link:hover {
-  text-decoration: underline;
-}
-
 .content__card-link:active {
   background-color: #545050;
 }
